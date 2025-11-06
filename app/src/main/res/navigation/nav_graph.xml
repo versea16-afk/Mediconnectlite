@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.yourname.filmtime.ui.home.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/categoriesFragment"
+        android:name="com.yourname.filmtime.ui.categories.CategoriesFragment"
+        android:label="Categories" />
+
+    <fragment
+        android:id="@+id/bookingsFragment"
+        android:name="com.yourname.filmtime.ui.bookings.BookingsFragment"
+        android:label="Bookings" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.yourname.filmtime.ui.profile.ProfileFragment"
+        android:label="Profile" />
+</navigation>
